@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ford Operations Strategy Analysis - DSCI-5330 Assignment 05</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: rgba(255,255,255,0.05);
+            border-radius: 1rem;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #003478, #0076CE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle { color: #94a3b8; font-size: 1.1rem; }
+        .badge {
+            display: inline-block;
+            background: #003478;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            margin-top: 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .card-title {
+            padding: 1rem;
+            font-weight: 600;
+            color: #f1f5f9;
+            font-size: 0.95rem;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: #60a5fa;
+        }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            color: #64748b;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        footer a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ford Operations Strategy Analysis</h1>
+            <p class="subtitle">MIT Decision Category Framework & Resource-Based View</p>
+            <span class="badge">DSCI-5330 Assignment 05</span>
+        </header>
+
+        <h2 class="section-title">Operations Visualizations</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="visualizations/01_business_unit_performance_dashboard.png" alt="Business Unit Performance">
+                <div class="card-title">Business Unit Performance Dashboard</div>
+            </div>
+            <div class="card">
+                <img src="visualizations/02_manufacturing_footprint.png" alt="Manufacturing Footprint">
+                <div class="card-title">Global Manufacturing Footprint</div>
+            </div>
+            <div class="card">
+                <img src="visualizations/03_capacity_utilization_trends.png" alt="Capacity Utilization">
+                <div class="card-title">Capacity Utilization Trends</div>
+            </div>
+            <div class="card">
+                <img src="visualizations/04_operations_decision_categories.png" alt="Decision Categories">
+                <div class="card-title">MIT Operations Decision Categories</div>
+            </div>
+            <div class="card">
+                <img src="visualizations/05_vertical_integration_timeline.png" alt="Vertical Integration">
+                <div class="card-title">Vertical Integration Timeline</div>
+            </div>
+            <div class="card">
+                <img src="visualizations/06_strategic_fit_matrix.png" alt="Strategic Fit Matrix">
+                <div class="card-title">Strategic Fit Matrix</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Strategy Frameworks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="07_resource_based_strategy_matrix.png" alt="Resource Based Strategy">
+                <div class="card-title">Resource-Based Operations Strategy Matrix</div>
+            </div>
+            <div class="card">
+                <img src="08_resource_allocation_flow.png" alt="Resource Allocation">
+                <div class="card-title">Resource Allocation Flow</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Group 3 • University of North Texas • Fall 2025</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="https://kh0pper.github.io/ford-strategy-dashboard/">← Back to Main Dashboard</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
